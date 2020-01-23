@@ -82,6 +82,7 @@ h1 {
     padding-bottom: 28px;
     width: 100%;
 }
+/* Great job with the sticky nav bar! */
 
 .navigation-bar a{
 	color: lightgrey;
@@ -102,6 +103,7 @@ h1 {
 	top: 12px;
 	left: 50px;
 }
+/* I wouldn't use 'position: relative' here - you should just be able to position the logo with margins */
 
 header{
 	border-bottom: 2px solid black;
@@ -135,6 +137,7 @@ header{
 	padding: 10px 0 10px 0;
 
 }
+/* If you want this to act more like a button, you can use a hover pseudo-selector to change the cursor to pointer. I would also change this element to a <div> rather than a <p> as it should work better for styling purposes. */
 
 .features-about{
 	display: inline-block;
